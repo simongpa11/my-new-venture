@@ -12,7 +12,7 @@
     },
     "devDependencies": {
         "@tailwindcss/forms": "^0.5.7",
-        "tailwindcss": "^4.0.0"
+        "tailwindcss": "^4.1.17"
     },
     "dependencies": {
         "@radix-ui/react-slot": "^1.2.4",
@@ -22,6 +22,7 @@
         "@types/react": "^19.2.6",
         "@types/react-dom": "^19.2.3",
         "@vitejs/plugin-react-swc": "^4.2.2",
+        "autoprefixer": "^10.4.22",
         "class-variance-authority": "^0.7.1",
         "clsx": "^2.1.1",
         "lovable-tagger": "^1.1.11",
