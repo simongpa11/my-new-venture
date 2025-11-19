@@ -7,7 +7,8 @@
     "license": "https://cruip.com/terms/",
     "scripts": {
         "dev": "npx @tailwindcss/cli -i ./css/style.css -o ./style.css --watch",
-        "build": "npx @tailwindcss/cli -i ./css/style.css -o ./style.css"
+        "build": "npx @tailwindcss/cli -i ./css/style.css -o ./style.css",
+        "build:dev": "vite build --mode development"
     },
     "devDependencies": {
         "@tailwindcss/forms": "^0.5.7",
