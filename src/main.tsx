@@ -1,7 +1,6 @@
 import { createRoot } from "react-dom/client";
 import App from "./App.tsx";
 import "./index.css";
-import "../css/style.css";
 import "../css/vendors/aos.css";
 import AOS from "../js/vendors/aos.js";
 
