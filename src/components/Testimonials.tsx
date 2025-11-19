@@ -37,7 +37,7 @@ export const Testimonials = () => {
             <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.indigo.200),theme(colors.gray.50),theme(colors.indigo.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text font-nacelle text-3xl font-semibold text-transparent md:text-4xl" data-aos="fade-up">
               Trusted by teams worldwide
             </h2>
-            <p className="mt-4 text-lg text-gray-400" data-aos="fade-up" data-aos-delay="100">
+            <p className="mt-4 text-lg text-gray-700" data-aos="fade-up" data-aos-delay="100">
               See what our customers have to say about their experience.
             </p>
           </div>
@@ -47,7 +47,7 @@ export const Testimonials = () => {
             {testimonials.map((testimonial, index) => (
               <div
                 key={index}
-                className="rounded-2xl bg-gradient-to-b from-gray-900/50 to-gray-900/25 p-6"
+                className="rounded-2xl bg-gradient-to-b from-gray-100/50 to-white/50 p-6 backdrop-blur-sm before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(theme(colors.gray.200),theme(colors.gray.300))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)]"
                 data-aos="fade-up"
                 data-aos-delay={index * 100}
               >
@@ -59,18 +59,18 @@ export const Testimonials = () => {
                 </div>
 
                 {/* Content */}
-                <p className="mb-6 text-gray-300">{testimonial.content}</p>
+                <p className="mb-6 text-gray-700">{testimonial.content}</p>
 
                 {/* Author */}
-                <div className="flex items-center gap-3 border-t border-gray-800 pt-4">
+                <div className="flex items-center gap-3 border-t border-gray-200 pt-4">
                   <img
                     src={testimonial.image}
                     alt={testimonial.author}
                     className="h-10 w-10 rounded-full"
                   />
                   <div>
-                    <div className="font-medium text-white">{testimonial.author}</div>
-                    <div className="text-sm text-gray-400">
+                    <div className="font-medium text-gray-900">{testimonial.author}</div>
+                    <div className="text-sm text-gray-700">
                       {testimonial.role} at {testimonial.company}
                     </div>
                   </div>
