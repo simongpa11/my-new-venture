@@ -9,7 +9,7 @@ import { Footer } from '@/components/Footer';
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen flex-col overflow-hidden bg-gray-950 text-gray-200 supports-[overflow:clip]:overflow-clip">
+    <div className="flex min-h-screen flex-col overflow-hidden bg-gray-50 supports-[overflow:clip]:overflow-clip">
       <Header />
       <main className="grow">
         <Hero />
